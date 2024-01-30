@@ -25,20 +25,20 @@ Open the project in Android Studio.
 Build and run the app on an Android device or emulator running Android 11 or higher.
 
 ## Usage
-1. Launch the app on an Android device running Android 11 or higher.
+- ** Launch the app on an Android device running Android 11 or higher.
 
-2. Grant necessary permissions for camera and microphone access.
+- ** Grant necessary permissions for camera and microphone access.
 
-3. Point the camera at various objects to initiate object detection.
+- ** Point the camera at various objects to initiate object detection.
 
-4. Optionally, use voice recognition to identify specific items.
+- ** Optionally, use voice recognition to identify specific items.
 
-5. Detected item names are displayed on the screen in real-time.
+- ** Detected item names are displayed on the screen in real-time.
 
 ## Dependencies
-1. TensorFlow Lite: For object detection model inference.
-2. CameraX: For camera preview and access.
-3. Android SpeechRecognizer: For voice recognition functionality.
+- ** TensorFlow Lite: For object detection model inference.
+- ** CameraX: For camera preview and access.
+- ** Android SpeechRecognizer: For voice recognition functionality.
 
 ## License
 This project is licensed under the MIT License.
