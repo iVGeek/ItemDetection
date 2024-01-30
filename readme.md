@@ -36,9 +36,9 @@ Build and run the app on an Android device or emulator running Android 11 or hig
 5. Detected item names are displayed on the screen in real-time.
 
 ## Dependencies
-TensorFlow Lite: For object detection model inference.
-CameraX: For camera preview and access.
-Android SpeechRecognizer: For voice recognition functionality.
+1. TensorFlow Lite: For object detection model inference.
+2. CameraX: For camera preview and access.
+3. Android SpeechRecognizer: For voice recognition functionality.
 
 ## License
 This project is licensed under the MIT License.
