@@ -24,6 +24,7 @@ Open the project in Android Studio.
 
 Build and run the app on an Android device or emulator running Android 11 or higher.
 
+
 ## Usage
 - Launch the app on an Android device running Android 11 or higher.
 
@@ -39,6 +40,7 @@ Build and run the app on an Android device or emulator running Android 11 or hig
 - TensorFlow Lite: For object detection model inference.
 - CameraX: For camera preview and access.
 - Android SpeechRecognizer: For voice recognition functionality.
+
 
 ## License
 This project is licensed under the MIT License.
