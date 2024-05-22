@@ -19,7 +19,7 @@ The Item Detection Android App is a mobile application designed to utilize the d
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ItemDetection.git
+   git clone https://github.com/ivgeek/ItemDetection.git
 Open the project in Android Studio.
 
 Build and run the app on an Android device or emulator running Android 11 or higher.
