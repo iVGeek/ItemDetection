@@ -20,12 +20,12 @@ import androidx.core.content.ContextCompat;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity {
+
     private static final int REQUEST_CODE_PERMISSIONS = 10;
     private static final int REQUEST_CODE_VOICE_RECOGNITION = 100;
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         preview.setSurfaceProvider(findViewById(R.id.viewFinder).getSurfaceProvider());
 
-        Camera camera = cameraProvider.bindToLifecycle(this, cameraSelector, preview);
+        cameraProvider.bindToLifecycle(this, cameraSelector, preview);
     }
 
     private void startVoiceRecognition() {
